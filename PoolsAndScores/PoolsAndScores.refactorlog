@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="d8b931eb-fb33-43a4-ac4b-79f6c42c6c2b" ChangeDateTime="08/24/2015 03:34:21">
+    <Property Name="ElementName" Value="[dbo].[Login].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Login]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LoginId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4e5b5530-ba5b-4a22-be81-7e00ddf12328" ChangeDateTime="09/03/2015 02:29:17">
+    <Property Name="ElementName" Value="[dbo].[Team].[Abbrevation]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Team]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Abbreviation" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="74beddc5-865c-4fe4-945f-7a2dd7ba6f3a" ChangeDateTime="09/03/2015 02:37:00">
+    <Property Name="ElementName" Value="[dbo].[Game].[HomeTeamScore]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Game]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HomeScore" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f0dbd2dd-292f-4050-96f8-10754b3488a3" ChangeDateTime="09/03/2015 02:37:04">
+    <Property Name="ElementName" Value="[dbo].[Game].[Awa]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Game]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AwayScore" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="778fd0a4-5629-4dd1-bb9f-af217abff310" ChangeDateTime="09/03/2015 02:44:08">
+    <Property Name="ElementName" Value="[dbo].[Game].[Day]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Game]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="WeekDay" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d6c1594c-edd3-4d0b-8c7c-cfcb7c2341fe" ChangeDateTime="09/03/2015 03:31:47">
+    <Property Name="ElementName" Value="[dbo].[Division].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Division]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DivisionId" />
+  </Operation>
+</Operations>
