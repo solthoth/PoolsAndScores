@@ -27,39 +27,39 @@ end
 IF (Select count(*) from Team)=0 
 begin
 	DELETE from Team
-	insert into Team(Name, City, Abbreviation)
+	insert into Team(TeamId, Name, City, Abbreviation, DivisionId)
 	/* AFC DIVISION */
-	select 'Ravens',  'Baltimore',	  'BAL', 1 UNION ALL
-	select 'Bengals', 'Cincinnati',   'CIN', 1 UNION ALL
-	select 'Browns',  'Cleveland',	  'CLE', 1 UNION ALL
-	select 'Steelers','Pittsburgh',   'PIT', 1 UNION ALL
-	select 'Texans',  'Houston',	  'HOU', 2 UNION ALL
-	select 'Colts',   'Indianapolis', 'IND', 2 UNION ALL
-	select 'Jaguars', 'Jacksonville', 'JAC', 2 UNION ALL
-	select 'Titans',  'Tennessee',    'TEN', 2 UNION ALL
-	select 'Bills',   'Buffalo',	  'BUF', 3 UNION ALL
-	select 'Dolphins','Miami',		  'MIA', 3 UNION ALL
-	select 'Patriots','New England',  'NE',  3 UNION ALL
-	select 'Jets',    'New York',	  'NYJ', 3 UNION ALL
-	select 'Broncos', 'Denver',		  'DEN', 4 UNION ALL
-	select 'Chiefs',  'Kansas City',  'KC',  4 UNION ALL
-	select 'Raiders', 'Oakland',	  'OAK', 4 UNION ALL
-	select 'Chargers','San Diego',	  'SD',  4 UNION ALL
+	select  1, 'Ravens',  'Baltimore',	  'BAL', 1 UNION ALL
+	select  2, 'Bengals', 'Cincinnati',   'CIN', 1 UNION ALL
+	select  3, 'Browns',  'Cleveland',	  'CLE', 1 UNION ALL
+	select  4, 'Steelers','Pittsburgh',   'PIT', 1 UNION ALL
+	select  5, 'Texans',  'Houston',	  'HOU', 2 UNION ALL
+	select  6, 'Colts',   'Indianapolis', 'IND', 2 UNION ALL
+	select  7, 'Jaguars', 'Jacksonville', 'JAC', 2 UNION ALL
+	select  8, 'Titans',  'Tennessee',    'TEN', 2 UNION ALL
+	select  9, 'Bills',   'Buffalo',	  'BUF', 3 UNION ALL
+	select 10, 'Dolphins','Miami',		  'MIA', 3 UNION ALL
+	select 11, 'Patriots','New England',  'NE',  3 UNION ALL
+	select 12, 'Jets',    'New York',	  'NYJ', 3 UNION ALL
+	select 13, 'Broncos', 'Denver',		  'DEN', 4 UNION ALL
+	select 14, 'Chiefs',  'Kansas City',  'KC',  4 UNION ALL
+	select 15, 'Raiders', 'Oakland',	  'OAK', 4 UNION ALL
+	select 16, 'Chargers','San Diego',	  'SD',  4 UNION ALL
 	/* NFC DIVISON */
-	select 'Bears',		'Chicago',		'CHI',	5 UNION ALL
-	select 'Lions',		'Detroit',		'DET',	5 UNION ALL
-	select 'Packers',	'Green Bay',	'GB',	5 UNION ALL
-	select 'Vikings',	'Minnesota',	'MIN',	5 UNION ALL
-	select 'Falcons',	'Atlanta',		'ATL',	6 UNION ALL
-	select 'Panthers',	'Carolina',		'CAR',	6 UNION ALL
-	select 'Saints',	'New Orleans',	'NO',	6 UNION ALL
-	select 'Buccaneers','Tampa Bay',	'TB',	6 UNION ALL
-	select 'Cowboys',	'Dallas',		'DAL',	7 UNION ALL
-	select 'Giants',	'New York',		'NYG',	7 UNION ALL
-	select 'Eagles',	'Philadelphia',	'PHI',	7 UNION ALL
-	select 'Redskins',	'Washington',	'WAS',	7 UNION ALL
-	select 'Cardinals', 'Arizona',		'ARI',	8 UNION ALL
-	select '49ers',		'San Francisco','SF',	8 UNION ALL
-	select 'Seahawks',	'Seattle',		'SEA',	8 UNION ALL
-	select 'Rams',		'St. Louis',	'STL',	8
+	select 17, 'Bears',		'Chicago',		'CHI',	5 UNION ALL
+	select 18, 'Lions',		'Detroit',		'DET',	5 UNION ALL
+	select 19, 'Packers',	'Green Bay',	'GB',	5 UNION ALL
+	select 20, 'Vikings',	'Minnesota',	'MIN',	5 UNION ALL
+	select 21, 'Falcons',	'Atlanta',		'ATL',	6 UNION ALL
+	select 22, 'Panthers',	'Carolina',		'CAR',	6 UNION ALL
+	select 23, 'Saints',	'New Orleans',	'NO',	6 UNION ALL
+	select 24, 'Buccaneers','Tampa Bay',	'TB',	6 UNION ALL
+	select 25, 'Cowboys',	'Dallas',		'DAL',	7 UNION ALL
+	select 26, 'Giants',	'New York',		'NYG',	7 UNION ALL
+	select 27, 'Eagles',	'Philadelphia',	'PHI',	7 UNION ALL
+	select 28, 'Redskins',	'Washington',	'WAS',	7 UNION ALL
+	select 29, 'Cardinals', 'Arizona',		'ARI',	8 UNION ALL
+	select 30, '49ers',		'San Francisco','SF',	8 UNION ALL
+	select 31, 'Seahawks',	'Seattle',		'SEA',	8 UNION ALL
+	select 32, 'Rams',		'St. Louis',	'STL',	8
 end
